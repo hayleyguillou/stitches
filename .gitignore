@@ -1,3 +1,7 @@
+# Set to development, change import in production
+settings.py
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
