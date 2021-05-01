@@ -1,6 +1,5 @@
 # Set to development, change import in production
-settings.py
-
+stitches/settings.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
