@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(BASE_DIR)
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '0^ljxwchsk0n)xy198g=$&+&et#u*wek*)tpm1v_itbr5_3@^p'
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # Application definition
 
